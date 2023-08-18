@@ -1437,7 +1437,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5601282057705627710, guid: ff7bf41421af3504d801d95f4d714f9e, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5601282057705627710, guid: ff7bf41421af3504d801d95f4d714f9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1620,7 +1620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5601282057705627710, guid: ff7bf41421af3504d801d95f4d714f9e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5601282057705627710, guid: ff7bf41421af3504d801d95f4d714f9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1661,6 +1661,22 @@ PrefabInstance:
     - target: {fileID: 5601282057705627710, guid: ff7bf41421af3504d801d95f4d714f9e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574246225558349311, guid: ff7bf41421af3504d801d95f4d714f9e, type: 3}
+      propertyPath: upKey
+      value: 119
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574246225558349311, guid: ff7bf41421af3504d801d95f4d714f9e, type: 3}
+      propertyPath: downKey
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574246225558349311, guid: ff7bf41421af3504d801d95f4d714f9e, type: 3}
+      propertyPath: upKey.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/w
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574246225558349311, guid: ff7bf41421af3504d801d95f4d714f9e, type: 3}
+      propertyPath: downKey.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/s
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff7bf41421af3504d801d95f4d714f9e, type: 3}
